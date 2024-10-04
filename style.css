@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark-moss-green: #4a635b; /* Ajustado para um tom mais suave */
+    --pakistan-green: #3d5b3a; /* Um tom mais escuro e elegante */
+    --cornsilk: #fefae0;
+    --earth-yellow: #d9a93d; /* Um tom mais dourado */
+    --tigers-eye: #bc6c25; /* Mantido, pois combina bem */
+    --preto: rgb(0, 0, 0);
+    --font-family: "Courgette", cursive;
+    --fonte-texto: "EB Garamond", serif;
+}
+
+body {
+    background-color: var(--pakistan-green);
+    font-family: var(--font-family);
+    color: var(--preto);
+    height: 100vh;
+}
+
+header {
+    background-color: var(--earth-yellow);
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--fonte-texto);
+    font-size: 3rem;
+    color: var(--preto);
+    padding: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 1.5rem;
+    margin: 0 2rem 1rem 0;
+}
+
+.caixa-grafico {
+    margin: 5rem;
+    background-color: var(--dark-moss-green);
+    padding: 2rem;
+    border-radius: 15px;
+    font-family: var(--fonte-texto);
+    color: var(--cornsilk); /* Melhor contraste com fundo escuro */
+    border: var(--preto) groove 5px;
+}
+
+.caixa-gráfico__texto {
+    font-size: 1.5rem;
+    padding: 1.5em 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--preto);
+    color: var(--tigers-eye);
+    border: var(--earth-yellow) groove 5px;
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-family: var(--fonte-texto);
+}
